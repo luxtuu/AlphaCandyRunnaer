@@ -35,6 +35,21 @@ TextureImporter:
   - first:
       213: 4374239116707820326
     second: Tiles Candy Runner_10
+  - first:
+      213: 6567324695705987860
+    second: Tiles Candy Runner_11
+  - first:
+      213: -6061841788884116106
+    second: Tiles Candy Runner_12
+  - first:
+      213: -1482374364771941879
+    second: Tiles Candy Runner_13
+  - first:
+      213: 7341075368249673468
+    second: Tiles Candy Runner_14
+  - first:
+      213: -4985513280651484159
+    second: Tiles Candy Runner_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -79,7 +94,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 35
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -204,10 +219,14 @@ TextureImporter:
         width: 35
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -17.5, y: -17.5}
+        - {x: -17.5, y: 17.5}
+        - {x: 17.5, y: 17.5}
+        - {x: 17.5, y: -17.5}
       tessellationDetail: 0
       bones: []
       spriteID: ebb82cad5ccd3c780800000000000000
@@ -225,10 +244,14 @@ TextureImporter:
         width: 35
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -17.5, y: -17.5}
+        - {x: -17.5, y: 17.5}
+        - {x: 17.5, y: 17.5}
+        - {x: 17.5, y: -17.5}
       tessellationDetail: 0
       bones: []
       spriteID: ac510c46a06e68450800000000000000
@@ -246,10 +269,14 @@ TextureImporter:
         width: 35
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -17.5, y: 17.5}
+        - {x: -17.5, y: -17.5}
+        - {x: 17.5, y: -17.5}
+        - {x: 17.5, y: 17.5}
       tessellationDetail: 0
       bones: []
       spriteID: 8dd2733f5a49fc940800000000000000
@@ -267,10 +294,14 @@ TextureImporter:
         width: 36
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -18, y: 17.5}
+        - {x: -18, y: -17.5}
+        - {x: 18, y: -17.5}
+        - {x: 18, y: 17.5}
       tessellationDetail: 0
       bones: []
       spriteID: c28dca109153f3e00800000000000000
@@ -283,15 +314,19 @@ TextureImporter:
       name: Tiles Candy Runner_4
       rect:
         serializedVersion: 2
-        x: 276
+        x: 280
         y: 105
-        width: 39
-        height: 33
+        width: 35
+        height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -17.5, y: 17.5}
+        - {x: -17.5, y: -17.5}
+        - {x: 17.5, y: -17.5}
+        - {x: 17.5, y: 17.5}
       tessellationDetail: 0
       bones: []
       spriteID: b0eeea44df7eb7cf0800000000000000
@@ -309,10 +344,14 @@ TextureImporter:
         width: 35
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -17.5, y: 17.5}
+        - {x: -17.5, y: -17.5}
+        - {x: 17.5, y: -17.5}
+        - {x: 17.5, y: 17.5}
       tessellationDetail: 0
       bones: []
       spriteID: ef6d74ecc754304f0800000000000000
@@ -325,15 +364,19 @@ TextureImporter:
       name: Tiles Candy Runner_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 35
+        x: 420
+        y: 105
         width: 35
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -17.5, y: 17.5}
+        - {x: -17.5, y: -17.5}
+        - {x: 17.5, y: -17.5}
+        - {x: 17.5, y: 17.5}
       tessellationDetail: 0
       bones: []
       spriteID: 7aeb8aab4afa72840800000000000000
@@ -346,15 +389,19 @@ TextureImporter:
       name: Tiles Candy Runner_7
       rect:
         serializedVersion: 2
-        x: 70
-        y: 35
+        x: 490
+        y: 105
         width: 35
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -17.5, y: 17.5}
+        - {x: -17.5, y: -17.5}
+        - {x: 17.5, y: -17.5}
+        - {x: 17.5, y: 17.5}
       tessellationDetail: 0
       bones: []
       spriteID: 61a8570db717cdaa0800000000000000
@@ -367,15 +414,19 @@ TextureImporter:
       name: Tiles Candy Runner_8
       rect:
         serializedVersion: 2
-        x: 140
+        x: 0
         y: 35
         width: 35
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -17.5, y: -17.5}
+        - {x: -17.5, y: 17.5}
+        - {x: 17.5, y: 17.5}
+        - {x: 17.5, y: -17.5}
       tessellationDetail: 0
       bones: []
       spriteID: a933cafbd81a3aed0800000000000000
@@ -388,15 +439,19 @@ TextureImporter:
       name: Tiles Candy Runner_9
       rect:
         serializedVersion: 2
-        x: 210
+        x: 70
         y: 35
         width: 35
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -17.5, y: -17.5}
+        - {x: -17.5, y: 17.5}
+        - {x: 17.5, y: 17.5}
+        - {x: 17.5, y: -17.5}
       tessellationDetail: 0
       bones: []
       spriteID: b27a7f2ce2755e200800000000000000
@@ -409,19 +464,148 @@ TextureImporter:
       name: Tiles Candy Runner_10
       rect:
         serializedVersion: 2
+        x: 140
+        y: 35
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -17.5, y: 17.5}
+        - {x: -17.5, y: -17.5}
+        - {x: 17.5, y: -17.5}
+        - {x: 17.5, y: 17.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623fcf90d4b64bc30800000000000000
+      internalID: 4374239116707820326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles Candy Runner_11
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 35
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -17.5, y: 17.5}
+        - {x: -17.5, y: -17.5}
+        - {x: 17.5, y: -17.5}
+        - {x: 17.5, y: 17.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ba43cf303d32b50800000000000000
+      internalID: 6567324695705987860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles Candy Runner_12
+      rect:
+        serializedVersion: 2
         x: 280
         y: 35
         width: 35
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -17.5, y: 17.5}
+        - {x: -17.5, y: -17.5}
+        - {x: 17.5, y: -17.5}
+        - {x: 17.5, y: 17.5}
       tessellationDetail: 0
       bones: []
-      spriteID: 623fcf90d4b64bc30800000000000000
-      internalID: 4374239116707820326
+      spriteID: 67d91f0920300eba0800000000000000
+      internalID: -6061841788884116106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles Candy Runner_13
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 35
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -17.5, y: 17.5}
+        - {x: -17.5, y: -17.5}
+        - {x: 17.5, y: -17.5}
+        - {x: 17.5, y: 17.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9028f938e5c8d6be0800000000000000
+      internalID: -1482374364771941879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles Candy Runner_14
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 35
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -17.5, y: 17}
+        - {x: -17.5, y: -17}
+        - {x: 17.5, y: -17}
+        - {x: 17.5, y: 17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf644e9172db0e560800000000000000
+      internalID: 7341075368249673468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles Candy Runner_15
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 35
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -17.5, y: 17.5}
+        - {x: -17.5, y: -17.5}
+        - {x: 17.5, y: -17.5}
+        - {x: 17.5, y: 17.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104a6cbe516efcab0800000000000000
+      internalID: -4985513280651484159
       vertices: []
       indices: 
       edges: []
