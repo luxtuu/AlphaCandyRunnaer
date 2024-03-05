@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Idle
+  m_Name: Bajando
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,18 +20,16 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 7149530770474001442, guid: 98f22b532eef2d24ca3ad3536d7088ea, type: 3}
-    - time: 1
-      value: {fileID: -4821043291577138169, guid: 98f22b532eef2d24ca3ad3536d7088ea, type: 3}
-    - time: 2
       value: {fileID: -8825222886420115592, guid: 98f22b532eef2d24ca3ad3536d7088ea, type: 3}
-    - time: 3
-      value: {fileID: -8308112977113184897, guid: 98f22b532eef2d24ca3ad3536d7088ea, type: 3}
+    - time: 0.16666667
+      value: {fileID: 2843568034784813117, guid: 98f22b532eef2d24ca3ad3536d7088ea, type: 3}
+    - time: 0.33333334
+      value: {fileID: 6378441673029653905, guid: 98f22b532eef2d24ca3ad3536d7088ea, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
-  m_SampleRate: 1
+  m_SampleRate: 6
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -46,16 +44,15 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 7149530770474001442, guid: 98f22b532eef2d24ca3ad3536d7088ea, type: 3}
-    - {fileID: -4821043291577138169, guid: 98f22b532eef2d24ca3ad3536d7088ea, type: 3}
     - {fileID: -8825222886420115592, guid: 98f22b532eef2d24ca3ad3536d7088ea, type: 3}
-    - {fileID: -8308112977113184897, guid: 98f22b532eef2d24ca3ad3536d7088ea, type: 3}
+    - {fileID: 2843568034784813117, guid: 98f22b532eef2d24ca3ad3536d7088ea, type: 3}
+    - {fileID: 6378441673029653905, guid: 98f22b532eef2d24ca3ad3536d7088ea, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 4
+    m_StopTime: 0.5
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
