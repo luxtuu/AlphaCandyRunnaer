@@ -10,6 +10,7 @@ public class MovementBehaviour : MonoBehaviour
    //public float motiSpeed;
    //private float movementX, movementY;
     public Rigidbody2D rbCharacter;
+    public SpriteRenderer sprite;
     public float motiSpeed;
    //private Vector2 cursoDeMovement;
     public Animator animi;

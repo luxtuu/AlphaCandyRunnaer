@@ -3352,6 +3352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rbCharacter: {fileID: 1515665820}
+  sprite: {fileID: 1515665818}
   motiSpeed: 20
   animi: {fileID: 1515665823}
 --- !u!61 &1515665822
