@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HealthHeart : MonoBehaviour
+public class PlayerHealth : MonoBehaviour
 {
     public int vida;
     public int numDeVidas;
@@ -14,9 +14,9 @@ public class HealthHeart : MonoBehaviour
 
     void Update()
     {
-        for(int i = 0; i < vidas.Length; i++)
+        for (int i = 0; i < vidas.Length; i++)
         {
-            if(vida > numDeVidas)
+            if (vida > numDeVidas)
             {
                 vida = numDeVidas;
             }
@@ -30,7 +30,7 @@ public class HealthHeart : MonoBehaviour
                 vidas[i].sprite = vidaVacia;
             }
 
-            if(i < numDeVidas)
+            if (i < numDeVidas)
             {
                 vidas[i].enabled = true;
             }
