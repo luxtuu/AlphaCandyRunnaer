@@ -162,7 +162,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -288.74, y: 125.08}
+  m_AnchoredPosition: {x: -291, y: 152}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &184966641
@@ -247,7 +247,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -228.94005, y: 126.29}
+  m_AnchoredPosition: {x: -231.20006, y: 153.20998}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &414419973
@@ -3487,8 +3487,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 850463305
-  m_SortingLayer: 1
+  m_SortingLayerID: 2005329191
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7149530770474001442, guid: 98f22b532eef2d24ca3ad3536d7088ea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3551,7 +3551,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rbCharacter: {fileID: 1515665820}
   sprite: {fileID: 1515665818}
-  motiSpeed: 20
+  motiSpeed: 15
   animi: {fileID: 1515665823}
 --- !u!61 &1515665822
 BoxCollider2D:
@@ -3589,7 +3589,7 @@ Animator:
   m_GameObject: {fileID: 1515665817}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 224887638407f2d4fbc86099baf6ece2, type: 2}
+  m_Controller: {fileID: 9100000, guid: f4fea58ad62cdee4b9533d8ef3792a0c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3960,7 +3960,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -176.16, y: 125.81}
+  m_AnchoredPosition: {x: -178.42001, y: 152.72998}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1894314509

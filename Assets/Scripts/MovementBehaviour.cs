@@ -7,12 +7,12 @@ public class MovementBehaviour : MonoBehaviour
     //public float characterMotion;
     private Vector2 characterMotion;
 
-   //public float motiSpeed;
-   //private float movementX, movementY;
+    //public float motiSpeed;
+    //private float movementX, movementY;
     public Rigidbody2D rbCharacter;
     public SpriteRenderer sprite;
     public float motiSpeed;
-   //private Vector2 cursoDeMovement;
+    //private Vector2 cursoDeMovement;
     public Animator animi;
 
     void Start()
@@ -25,7 +25,7 @@ public class MovementBehaviour : MonoBehaviour
     {
         HandleMotion();
         Animation();
-       // EncierroDePulso();
+        // EncierroDePulso();
         //animi.SetFloat("Horizontal", cursoDeMovement.x);
         //animi.SetFloat("Vertical", cursoDeMovement.y);
         // speedX = Input.GetAxisRaw("Horizontal") * motiSpeed;
@@ -57,15 +57,16 @@ public class MovementBehaviour : MonoBehaviour
         characterMotion.y = Input.GetAxis("Vertical");
     }
 
-   /* void EncierroDePulso()
-    {
-        movementX = Input.GetAxisRaw("Horizontal");
-        movementY = Input.GetAxisRaw("Vertical");
-        cursoDeMovement = new Vector2(movementX, movementY);
-    }
+    /* void EncierroDePulso()
+     {
+         movementX = Input.GetAxisRaw("Horizontal");
+         movementY = Input.GetAxisRaw("Vertical");
+         cursoDeMovement = new Vector2(movementX, movementY);
+     }
 
-    void MoveOfCharacter()
-    {
-        rbCharacter.velocity = new Vector2(cursoDeMovement.x * motiSpeed, cursoDeMovement.y * motiSpeed);
-    }*/
+     void MoveOfCharacter()
+     {
+         rbCharacter.velocity = new Vector2(cursoDeMovement.x * motiSpeed, cursoDeMovement.y * motiSpeed);
+     }*/
+
 }
