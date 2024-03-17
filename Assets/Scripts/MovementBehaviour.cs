@@ -7,8 +7,11 @@ public class MovementBehaviour : MonoBehaviour
     //public float characterMotion;
     private Vector2 characterMotion;
 
+    
+
     //public float motiSpeed;
     //private float movementX, movementY;
+    
     public Rigidbody2D rbCharacter;
     public SpriteRenderer sprite;
     public float motiSpeed;
@@ -25,6 +28,7 @@ public class MovementBehaviour : MonoBehaviour
     {
         HandleMotion();
         Animation();
+
         // EncierroDePulso();
         //animi.SetFloat("Horizontal", cursoDeMovement.x);
         //animi.SetFloat("Vertical", cursoDeMovement.y);
