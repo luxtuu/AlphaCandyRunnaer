@@ -7,34 +7,34 @@ TextureImporter:
     second: IdleRight_Sprites_0
   - first:
       213: -5846776932289646345
-    second: WalkingRight_Sprites_1
+    second: WalkinrRight_Sprites_1
   - first:
       213: -6607343480964365804
-    second: WalkingLeft_Sprites_2
+    second: WalkinrRight__Sprites_2
   - first:
       213: -4821043291577138169
     second: IdleBack_Sprites_3
   - first:
       213: 5164186880563413613
-    second: WalkingBackRight_Sprites_4
+    second: WalklingBack_Sprites_4
   - first:
       213: -5702860853630541196
-    second: WalkingBackLeftSprites_5
+    second: WalklingBack_Sprites_5
   - first:
       213: -8825222886420115592
     second: IdleFront_Sprites_6
   - first:
       213: 2843568034784813117
-    second: WalkingFrontLeft_Sprites_7
+    second: WalkingFront_Sprites_7
   - first:
       213: 6378441673029653905
-    second: WalkingFrontRight_Sprites_8
+    second: WalkingFront_Sprites_8
   - first:
       213: -5137569780042786404
     second: WalkingLeft_Sprites_9
   - first:
       213: -5454932973383087076
-    second: WalkingLeftSprites_10
+    second: WalkingLeft_Sprites_10
   - first:
       213: -8308112977113184897
     second: IdleLeft_Sprites_11
@@ -226,7 +226,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkingRight_Sprites_1
+      name: WalkinrRight_Sprites_1
       rect:
         serializedVersion: 2
         x: 44
@@ -247,7 +247,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkingLeft_Sprites_2
+      name: WalkinrRight__Sprites_2
       rect:
         serializedVersion: 2
         x: 75
@@ -289,7 +289,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkingBackRight_Sprites_4
+      name: WalklingBack_Sprites_4
       rect:
         serializedVersion: 2
         x: 151
@@ -310,12 +310,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkingBackLeftSprites_5
+      name: WalklingBack_Sprites_5
       rect:
         serializedVersion: 2
-        x: 183
+        x: 186
         y: 2
-        width: 15
+        width: 12
         height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -352,7 +352,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkingFrontLeft_Sprites_7
+      name: WalkingFront_Sprites_7
       rect:
         serializedVersion: 2
         x: 256
@@ -373,7 +373,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkingFrontRight_Sprites_8
+      name: WalkingFront_Sprites_8
       rect:
         serializedVersion: 2
         x: 288
@@ -415,7 +415,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkingLeftSprites_10
+      name: WalkingLeft_Sprites_10
       rect:
         serializedVersion: 2
         x: 356
