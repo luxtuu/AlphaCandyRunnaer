@@ -1,43 +1,43 @@
 fileFormatVersion: 2
-guid: 185cbf99d27294d4881375c98e505a67
+guid: a3bb5d034da625c46a8585f3b733c3f7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3991429147147384278
-    second: Candy Moster_0
+      213: 5324940785997693658
+    second: Level 3 Monster_0
   - first:
-      213: -7606494916956337311
-    second: Candy Moster_1
+      213: -4408435551222619072
+    second: Level 3 Monster_1
   - first:
-      213: 3888743907453578601
-    second: Candy Moster_2
+      213: -1625438819376196099
+    second: Level 3 Monster_2
   - first:
-      213: 7553173643264825808
-    second: Candy Moster_3
+      213: 2323690342977812362
+    second: Level 3 Monster_3
   - first:
-      213: 3868299883496309876
-    second: Candy Moster_4
+      213: -7864747452709115723
+    second: Level 3 Monster_4
   - first:
-      213: -2485405191282641742
-    second: Candy Moster_5
+      213: -4686237086402786307
+    second: Level 3 Monster_5
   - first:
-      213: 7402044596605763183
-    second: Candy Moster_6
+      213: -8771382239842465827
+    second: Level 3 Monster_6
   - first:
-      213: -9111105987197356782
-    second: Candy Moster_7
+      213: 557185820291781817
+    second: Level 3 Monster_7
   - first:
-      213: -170556807576832534
-    second: Candy Moster_8
+      213: 8252983247774382462
+    second: Level 3 Monster_8
   - first:
-      213: -6325624638036787083
-    second: Candy Moster_9
+      213: 9212540251759439866
+    second: Level 3 Monster_9
   - first:
-      213: -2988320606707885967
-    second: Candy Moster_10
+      213: 4275935091240183853
+    second: Level 3 Monster_10
   - first:
-      213: 6513265533635156455
-    second: Candy Moster_11
+      213: 3463355116064900201
+    second: Level 3 Monster_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -199,12 +199,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Candy Moster_0
+      name: Level 3 Monster_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 5
-        width: 41
+        x: 19
+        y: 8
+        width: 33
         height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -213,20 +213,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d53cdd69a7646730800000000000000
-      internalID: 3991429147147384278
+      spriteID: ad2c16f9e6df5e940800000000000000
+      internalID: 5324940785997693658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Candy Moster_1
+      name: Level 3 Monster_1
       rect:
         serializedVersion: 2
-        x: 72
-        y: 4
-        width: 39
-        height: 76
+        x: 65
+        y: 9
+        width: 34
+        height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,20 +234,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16bc0098c2d407690800000000000000
-      internalID: -7606494916956337311
+      spriteID: 0442c2a193712d2c0800000000000000
+      internalID: -4408435551222619072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Candy Moster_2
+      name: Level 3 Monster_2
       rect:
         serializedVersion: 2
-        x: 131
-        y: 3
-        width: 44
-        height: 77
+        x: 112
+        y: 9
+        width: 34
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,20 +255,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96d2c3afaf797f530800000000000000
-      internalID: 3888743907453578601
+      spriteID: df593f671084179e0800000000000000
+      internalID: -1625438819376196099
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Candy Moster_3
+      name: Level 3 Monster_3
       rect:
         serializedVersion: 2
-        x: 200
-        y: 4
-        width: 47
-        height: 76
+        x: 171
+        y: 8
+        width: 26
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,20 +276,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d994adf86342d860800000000000000
-      internalID: 7553173643264825808
+      spriteID: a87b2353e086f3020800000000000000
+      internalID: 2323690342977812362
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Candy Moster_4
+      name: Level 3 Monster_4
       rect:
         serializedVersion: 2
-        x: 267
-        y: 4
-        width: 47
-        height: 76
+        x: 222
+        y: 8
+        width: 26
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,20 +297,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4748b78bf36fea530800000000000000
-      internalID: 3868299883496309876
+      spriteID: 5b86d196cddcad290800000000000000
+      internalID: -7864747452709115723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Candy Moster_5
+      name: Level 3 Monster_5
       rect:
         serializedVersion: 2
-        x: 338
-        y: 4
-        width: 47
-        height: 78
+        x: 275
+        y: 8
+        width: 26
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -318,20 +318,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b4bfa29521128dd0800000000000000
-      internalID: -2485405191282641742
+      spriteID: dfb43bbd23427feb0800000000000000
+      internalID: -4686237086402786307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Candy Moster_6
+      name: Level 3 Monster_6
       rect:
         serializedVersion: 2
-        x: 408
-        y: 5
-        width: 47
-        height: 76
+        x: 326
+        y: 8
+        width: 26
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -339,20 +339,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6e3948c75859b660800000000000000
-      internalID: 7402044596605763183
+      spriteID: dd7050d535ac54680800000000000000
+      internalID: -8771382239842465827
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Candy Moster_7
+      name: Level 3 Monster_7
       rect:
         serializedVersion: 2
-        x: 473
-        y: 3
-        width: 46
-        height: 78
+        x: 377
+        y: 8
+        width: 26
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,20 +360,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 215ba2a9069de8180800000000000000
-      internalID: -9111105987197356782
+      spriteID: 9b4506c2d858bb700800000000000000
+      internalID: 557185820291781817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Candy Moster_8
+      name: Level 3 Monster_8
       rect:
         serializedVersion: 2
-        x: 542
-        y: 1
-        width: 46
-        height: 79
+        x: 430
+        y: 8
+        width: 26
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -381,20 +381,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae5bb56bc7f02adf0800000000000000
-      internalID: -170556807576832534
+      spriteID: e7977d4a98c788270800000000000000
+      internalID: 8252983247774382462
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Candy Moster_9
+      name: Level 3 Monster_9
       rect:
         serializedVersion: 2
-        x: 618
-        y: 2
-        width: 44
-        height: 77
+        x: 494
+        y: 8
+        width: 23
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,20 +402,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 570cb5308edd638a0800000000000000
-      internalID: -6325624638036787083
+      spriteID: affeb118c8489df70800000000000000
+      internalID: 9212540251759439866
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Candy Moster_10
+      name: Level 3 Monster_10
       rect:
         serializedVersion: 2
-        x: 682
-        y: 3
-        width: 39
-        height: 76
+        x: 549
+        y: 8
+        width: 23
+        height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -423,19 +423,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1785232bd3a5786d0800000000000000
-      internalID: -2988320606707885967
+      spriteID: d28aff38f4c275b30800000000000000
+      internalID: 4275935091240183853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Candy Moster_11
+      name: Level 3 Monster_11
       rect:
         serializedVersion: 2
-        x: 738
-        y: 4
-        width: 41
+        x: 607
+        y: 7
+        width: 22
         height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -444,8 +444,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e95e1c7e74c36a50800000000000000
-      internalID: 6513265533635156455
+      spriteID: 9648410e02f401030800000000000000
+      internalID: 3463355116064900201
       vertices: []
       indices: 
       edges: []
