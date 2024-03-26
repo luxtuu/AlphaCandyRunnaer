@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/TestingScene.unity
     guid: c7c929029de426b428a8d6c20467ac45
+  - enabled: 1
+    path: Assets/Scenes/Lvel 1 Begining Forest.unity
+    guid: 4cfb3209734cb034eabfc306784df979
   m_configObjects: {}
