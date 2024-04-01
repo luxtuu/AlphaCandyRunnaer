@@ -57,8 +57,18 @@ public class MovementBehaviour : MonoBehaviour
 
     void HandleMotion()
     {
-        characterMotion.x = Input.GetAxis("Horizontal");
-        characterMotion.y = Input.GetAxis("Vertical");
+        characterMotion.x = Mathf.Round(Input.GetAxisRaw("Horizontal"));
+        characterMotion.y = Mathf.Round(Input.GetAxisRaw("Vertical"));
+
+        if (characterMotion.sqrMagnitude > 0.5f)
+        {
+            characterMotion.Normalize();
+            characterMotion *= motiSpeed;
+        }
+        else
+        {
+            characterMotion *= motiSpeed;
+        }
     }
 
     /* void EncierroDePulso()

@@ -5313,7 +5313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   countdownTimeText: {fileID: 1069741465}
-  remainingTime: 5
+  remainingTime: 130
 --- !u!114 &1559612221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5540,6 +5540,10 @@ PrefabInstance:
     - target: {fileID: 3573274121920023098, guid: 5b0308635876f7b4eb5fb16d1e7354fe, type: 3}
       propertyPath: m_Name
       value: Player character
+      objectReference: {fileID: 0}
+    - target: {fileID: 3573274121920023102, guid: 5b0308635876f7b4eb5fb16d1e7354fe, type: 3}
+      propertyPath: motiSpeed
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b0308635876f7b4eb5fb16d1e7354fe, type: 3}
