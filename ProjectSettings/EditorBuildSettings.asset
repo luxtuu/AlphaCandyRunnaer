@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 2 Abandoned Village.unity
     guid: 9c18969541b789f44bd4af1fd3376697
+  - enabled: 1
+    path: Assets/Scenes/Level 3 Abandoned Supermarket.unity
+    guid: 9db36d1860892db4c89840666a0a982c
   m_configObjects: {}

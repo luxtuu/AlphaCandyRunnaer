@@ -248,8 +248,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1934706951}
+  m_Children: []
   m_Father: {fileID: 1951510596}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3051,8 +3050,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 850463305
-  m_SortingLayer: 1
+  m_SortingLayerID: 2005329191
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
@@ -3927,7 +3926,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1898505875}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.036, y: -0.001, z: -17.846254}
+  m_LocalPosition: {x: -0.06, y: -0.001, z: 0}
   m_LocalScale: {x: 0.3546854, y: 0.6361323, z: 1}
   m_Children: []
   m_Father: {fileID: 1202608710}
@@ -3983,7 +3982,7 @@ GameObject:
   - component: {fileID: 1934706951}
   m_Layer: 0
   m_Name: Dulces
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3996,7 +3995,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1934706950}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1763.9214, y: -1033.2983, z: -0.78001404}
+  m_LocalPosition: {x: -1.9213862, y: -0.29833966, z: -0.7800064}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 148311941}
@@ -4009,8 +4008,8 @@ Transform:
   - {fileID: 1364064220}
   - {fileID: 627774553}
   - {fileID: 1833239004}
-  m_Father: {fileID: 524180984}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1951510592
 GameObject:
@@ -4145,7 +4144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   countdownTimeText: {fileID: 1654797701}
-  remainingTime: 5
+  remainingTime: 120
 --- !u!114 &1960022367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4204,7 +4203,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_SortingLayerID: 2005329191
+  m_SortingLayerID: 373856135
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!224 &1960022370
@@ -4324,6 +4323,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4550507314680096921, guid: 3562bfeebb639a941b9b817a5ba8e5fe, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 4550507314680096925, guid: 3562bfeebb639a941b9b817a5ba8e5fe, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -4367,6 +4370,10 @@ PrefabInstance:
     - target: {fileID: 4550507314680096925, guid: 3562bfeebb639a941b9b817a5ba8e5fe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4550507316281259048, guid: 3562bfeebb639a941b9b817a5ba8e5fe, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 373856135
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3562bfeebb639a941b9b817a5ba8e5fe, type: 3}
