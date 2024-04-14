@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Dulces
+  - Enemy
   layers:
   - Default
   - TransparentFX
