@@ -1,25 +1,28 @@
 fileFormatVersion: 2
-guid: 59e98d2daf1e7ad43b9412329a6387d4
+guid: c1031f985f7b91e49a09187c83f33c26
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7609266822914031871
-    second: Grass level 2_0
+      213: -7399161631623211251
+    second: Level 3 decoration 2_0
   - first:
-      213: 4922913197673693407
-    second: Grass level 2_1
+      213: 1998619238936285656
+    second: Level 3 decoration 2_1
   - first:
-      213: -427530398514321096
-    second: Grass level 2_2
+      213: 3750371309830908009
+    second: Level 3 decoration 2_2
   - first:
-      213: 6460184136816015838
-    second: Grass level 2_3
+      213: -594540726941398006
+    second: Level 3 decoration 2_3
   - first:
-      213: -2703650800422571539
-    second: Grass level 2_4
+      213: -441685269531689443
+    second: Level 3 decoration 2_4
   - first:
-      213: -778777711477984009
-    second: Grass level 2_5
+      213: 2227766816054299632
+    second: Level 3 decoration 2_5
+  - first:
+      213: 4489681051561295519
+    second: Level 3 decoration 2_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -64,7 +67,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 35
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -181,13 +184,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Grass level 2_0
+      name: Level 3 decoration 2_0
       rect:
         serializedVersion: 2
-        x: 43
-        y: 8
-        width: 28
-        height: 16
+        x: 22
+        y: 10
+        width: 99
+        height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +198,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10f3b03e324766690800000000000000
-      internalID: -7609266822914031871
+      spriteID: d07166fc2b5e05990800000000000000
+      internalID: -7399161631623211251
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Grass level 2_1
+      name: Level 3 decoration 2_1
       rect:
         serializedVersion: 2
-        x: 80
-        y: 6
-        width: 23
-        height: 13
+        x: 161
+        y: 10
+        width: 99
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,19 +219,103 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd04c677873b15440800000000000000
-      internalID: 4922913197673693407
+      spriteID: 8d11f02db958cbb10800000000000000
+      internalID: 1998619238936285656
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Grass level 2_2
+      name: Level 3 decoration 2_2
       rect:
         serializedVersion: 2
-        x: 118
+        x: 316
+        y: 3
+        width: 31
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968a94206defb0430800000000000000
+      internalID: 3750371309830908009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 3 decoration 2_3
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 4
+        width: 30
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0cc72edb54cfb7f0800000000000000
+      internalID: -594540726941398006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 3 decoration 2_4
+      rect:
+        serializedVersion: 2
+        x: 474
         y: 6
-        width: 25
+        width: 110
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e7a076691ded9f0800000000000000
+      internalID: -441685269531689443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 3 decoration 2_5
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 15
+        width: 96
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbc151bd1e9aee10800000000000000
+      internalID: 2227766816054299632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 3 decoration 2_6
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 3
+        width: 68
         height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -237,71 +324,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8396fd12e5b111af0800000000000000
-      internalID: -427530398514321096
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Grass level 2_3
-      rect:
-        serializedVersion: 2
-        x: 152
-        y: 6
-        width: 25
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed93882be3f27a950800000000000000
-      internalID: 6460184136816015838
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Grass level 2_4
-      rect:
-        serializedVersion: 2
-        x: 189
-        y: 6
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: de1bc1cebe3ba7ad0800000000000000
-      internalID: -2703650800422571539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Grass level 2_5
-      rect:
-        serializedVersion: 2
-        x: 220
-        y: 7
-        width: 19
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7f4fc5c2cc93135f0800000000000000
-      internalID: -778777711477984009
+      spriteID: f9efc19012d8e4e30800000000000000
+      internalID: 4489681051561295519
       vertices: []
       indices: 
       edges: []
