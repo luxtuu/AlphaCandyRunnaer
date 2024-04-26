@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86669dbb2372dbd47bd15f327328dc32, type: 3}
+  m_Name: DatabaseCharacter
+  m_EditorClassIdentifier: 
+  character:
+  - characterName: Katsuya
+    characterSprite: {fileID: -8825222886420115592, guid: 98f22b532eef2d24ca3ad3536d7088ea, type: 3}
+  - characterName: Aurora
+    characterSprite: {fileID: 1666958978392312749, guid: 9f68b7ad724c48a4184ca4a56ec873fb, type: 3}
+  - characterName: Rudy
+    characterSprite: {fileID: -6312538060844929632, guid: 11a2082475359454d83c21decbd13d18, type: 3}
