@@ -46,6 +46,9 @@ TagManager:
   - name: Background
     uniqueID: 850463305
     locked: 0
+  - name: perspective
+    uniqueID: 796328769
+    locked: 0
   - name: player
     uniqueID: 2005329191
     locked: 0
