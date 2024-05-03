@@ -9,13 +9,17 @@ public class EnemyPatrol : MonoBehaviour
     public float startWaitTime;
 
     public Transform moveSpot; // variable de movimiento
+
     public float minX;
-        public float maxX;
-         public float MinY;
-            public float maxY;
+    public float maxX;
+    public float minY;
+    public float maxY;
+
     void Start()
     {
         waitTime = startWaitTime;
+
+        moveSpot.position = new Vector2(Random.Range(minX, maxX), Random.Range(minY, maxY));
     }
 
     void Update()
@@ -26,6 +30,8 @@ public class EnemyPatrol : MonoBehaviour
         {
             if (waitTime <= 0)
             {
+                moveSpot.position = new Vector2(Random.Range(minX, maxX), Random.Range(minY, maxY));
+
                 waitTime = startWaitTime;
             }
             else
