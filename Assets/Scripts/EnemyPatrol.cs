@@ -8,11 +8,11 @@ public class EnemyPatrol : MonoBehaviour
     private float waitTime; // variable tiempo de espera para movimiento
     public float startWaitTime;
 
-    public Transform[] moveSpot; // variable de movimiento
-    public float minX
-        public float maxX
-         public MinY;
-            public float maxY
+    public Transform moveSpot; // variable de movimiento
+    public float minX;
+        public float maxX;
+         public float MinY;
+            public float maxY;
     void Start()
     {
         waitTime = startWaitTime;

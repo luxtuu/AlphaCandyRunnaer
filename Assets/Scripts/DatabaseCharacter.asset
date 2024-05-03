@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character:
   - characterName: Katsuya
-    characterSprite: {fileID: -8825222886420115592, guid: 98f22b532eef2d24ca3ad3536d7088ea, type: 3}
+    characterSprite: {fileID: 21300000, guid: 451afdd976b2655458e751e2156b6ce2, type: 3}
   - characterName: Aurora
-    characterSprite: {fileID: 1666958978392312749, guid: 9f68b7ad724c48a4184ca4a56ec873fb, type: 3}
+    characterSprite: {fileID: 21300000, guid: b0492b64468a627488fd7de0b9ec8106, type: 3}
   - characterName: Rudy
-    characterSprite: {fileID: -6312538060844929632, guid: 11a2082475359454d83c21decbd13d18, type: 3}
+    characterSprite: {fileID: 21300000, guid: 51f8c8e5fab14294290e22e6cb292bc6, type: 3}
