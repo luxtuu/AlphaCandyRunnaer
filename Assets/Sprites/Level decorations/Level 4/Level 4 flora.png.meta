@@ -319,8 +319,8 @@ TextureImporter:
       name: Level 4 flora_6
       rect:
         serializedVersion: 2
-        x: 462
-        y: 27
+        x: 445
+        y: 28
         width: 61
         height: 113
       alignment: 0
@@ -340,8 +340,8 @@ TextureImporter:
       name: Level 4 flora_7
       rect:
         serializedVersion: 2
-        x: 561
-        y: 29
+        x: 544
+        y: 30
         width: 61
         height: 110
       alignment: 0
@@ -361,8 +361,8 @@ TextureImporter:
       name: Level 4 flora_8
       rect:
         serializedVersion: 2
-        x: 661
-        y: 30
+        x: 644
+        y: 31
         width: 61
         height: 112
       alignment: 0

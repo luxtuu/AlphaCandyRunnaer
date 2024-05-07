@@ -1,7 +1,13 @@
 fileFormatVersion: 2
-guid: 98d61fb4993672e4285d89c86bb83e13
+guid: c2be47b2896f0064eb27edb1259b9b51
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6244582219713045226
+    second: Level 4 buildings_0
+  - first:
+      213: -8362762479524198808
+    second: Level 4 buildings_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +47,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -161,7 +167,49 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Level 4 buildings_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 32
+        width: 140
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae267b0917639a650800000000000000
+      internalID: 6244582219713045226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 4 buildings_1
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 36
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866cefa25df71fb80800000000000000
+      internalID: -8362762479524198808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
