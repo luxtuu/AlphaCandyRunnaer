@@ -759,11 +759,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 2005329191
-  m_SortingLayer: 2
+  m_SortingLayerID: 373856135
+  m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 2189510010676529607, guid: f05c38c22ef68ea4d93b16694d61fa47, type: 3}
+  m_Color: {r: 1, g: 0.53447706, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -781,8 +781,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1202608708}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0193, y: -9.7256, z: 0}
-  m_LocalScale: {x: 2.8109415, y: 1.5890232, z: 1}
+  m_LocalPosition: {x: 0.0193, y: -9.32, z: 0}
+  m_LocalScale: {x: 11.792752, y: 6.6664343, z: 4.195303}
   m_Children:
   - {fileID: 1898505876}
   m_Father: {fileID: 0}
@@ -1393,7 +1393,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 2005329191
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -3674,8 +3674,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1898505875}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.06, y: -0.001, z: 0}
-  m_LocalScale: {x: 0.3546854, y: 0.6361323, z: 1}
+  m_LocalPosition: {x: 0.0067, y: -0.001, z: 0}
+  m_LocalScale: {x: 0.45968446, y: 0.82444924, z: 1.2960343}
   m_Children: []
   m_Father: {fileID: 1202608710}
   m_RootOrder: 0
@@ -3706,7 +3706,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.09204912, y: 0.006564617}
+  m_Offset: {x: 0.008954912, y: 0.006564647}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3717,7 +3717,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.7970295, y: 1.0946074}
+  m_Size: {x: 0.33964556, y: 0.16785139}
   m_EdgeRadius: 0
 --- !u!1 &1934706950
 GameObject:
@@ -4130,6 +4130,10 @@ PrefabInstance:
     - target: {fileID: 4550507314680096925, guid: 3562bfeebb639a941b9b817a5ba8e5fe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4550507315096451486, guid: 3562bfeebb639a941b9b817a5ba8e5fe, type: 3}
+      propertyPath: orthographic size
+      value: 2.7
       objectReference: {fileID: 0}
     - target: {fileID: 4550507316281259048, guid: 3562bfeebb639a941b9b817a5ba8e5fe, type: 3}
       propertyPath: m_SortingLayerID
