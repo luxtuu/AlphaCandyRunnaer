@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ManagerCharacter : MonoBehaviour
 {
@@ -66,5 +67,10 @@ public class ManagerCharacter : MonoBehaviour
     private void Save()
     {
         PlayerPrefs.SetInt("selectOptioin", selectOption);
+    }
+
+    public void ChangeScene(int sceneID)
+    {
+        SceneManager.LoadScene(sceneID);
     }
 }
