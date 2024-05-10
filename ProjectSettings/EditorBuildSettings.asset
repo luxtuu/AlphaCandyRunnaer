@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 4 Candy Land.unity
     guid: 608204ce473b5e649bfed848ccc8de5f
   - enabled: 1
+    path: Assets/Scenes/Level 5 Witch Lair.unity
+    guid: 28e5a16e0bbcb3048b99b8a67045409b
+  - enabled: 1
     path: Assets/Scenes/SelectPlayer.unity
     guid: 67da7f77ed5fb3d4b8c59f4145848851
   m_configObjects: {}

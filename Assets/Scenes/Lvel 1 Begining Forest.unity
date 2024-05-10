@@ -2538,11 +2538,15 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.5737, y: 0.4888, z: 0}
   m_LocalScale: {x: 4.7973685, y: 4.507321, z: 1}
-  m_Children:
-  - {fileID: 896689000}
+  m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &475796510 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 4550507315096451486, guid: 3562bfeebb639a941b9b817a5ba8e5fe, type: 3}
+  m_PrefabInstance: {fileID: 1064794668}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &896688998
 GameObject:
   m_ObjectHideFlags: 0
@@ -2597,11 +2601,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 2005329191
-  m_SortingLayer: 3
+  m_SortingLayerID: 373856135
+  m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 2189510010676529607, guid: f05c38c22ef68ea4d93b16694d61fa47, type: 3}
+  m_Color: {r: 0.53950447, g: 0, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2619,12 +2623,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 896688998}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.22852108, y: 2.3519957, z: 0}
-  m_LocalScale: {x: 0.58593404, y: 0.35254273, z: 1}
+  m_LocalPosition: {x: -1.52, y: 10.95, z: 0}
+  m_LocalScale: {x: 15.666686, y: 5.1978564, z: 1}
   m_Children:
   - {fileID: 1171819321}
-  m_Father: {fileID: 429095602}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1064794668
 PrefabInstance:
@@ -2633,6 +2637,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4550507314680096865, guid: 3562bfeebb639a941b9b817a5ba8e5fe, type: 3}
+      propertyPath: candiesText
+      value: 
+      objectReference: {fileID: 1838630702}
     - target: {fileID: 4550507314680096921, guid: 3562bfeebb639a941b9b817a5ba8e5fe, type: 3}
       propertyPath: m_Name
       value: Player
@@ -2847,7 +2855,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1171819320}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.036, y: -0.001, z: -17.846254}
+  m_LocalPosition: {x: 0.007, y: 0.007, z: -17.846254}
   m_LocalScale: {x: 0.3546854, y: 0.6361323, z: 1}
   m_Children: []
   m_Father: {fileID: 896689000}
@@ -2879,7 +2887,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.09204912, y: 0.006564617}
+  m_Offset: {x: -0.006522864, y: 0.012322158}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2890,7 +2898,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.7970295, y: 1.0946074}
+  m_Size: {x: 0.4680789, y: 0.16155612}
   m_EdgeRadius: 0
 --- !u!1 &1287952576
 GameObject:
@@ -3095,7 +3103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   countdownTimeText: {fileID: 1069741465}
-  remainingTime: 130
+  remainingTime: 125
 --- !u!114 &1559612221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3146,7 +3154,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 1
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 475796510}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
