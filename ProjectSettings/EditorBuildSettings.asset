@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SelectPlayer.unity
     guid: 67da7f77ed5fb3d4b8c59f4145848851
+  - enabled: 1
+    path: Assets/Scenes/CreditScene.unity
+    guid: 4a6f8bd1415411143b3b112adff8bf2b
   m_configObjects: {}
