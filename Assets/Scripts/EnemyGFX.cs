@@ -7,6 +7,13 @@ public class EnemyGFX : MonoBehaviour
 {
     public AIPath aiPath;   //variable para el enemy pathfinding
 
+    AudioSource audioSource;
+
+    void Start ()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -19,6 +26,14 @@ public class EnemyGFX : MonoBehaviour
         {
             transform.localScale = new Vector3(1f, 1f, 1f);
         }
-        
+
+        if (!audioSource.isPlaying)
+        {
+            audioSource.Play();
+        }
+        else
+        {
+            audioSource.Stop();
+        }
     }
 }

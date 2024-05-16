@@ -6,33 +6,33 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
+    path: Assets/Prefabs/Scenes/MainMenu.unity
     guid: a758701c8d9dea944b7338d143989809
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Prefabs/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 0
-    path: Assets/Scenes/TestingScene.unity
+    path: Assets/Prefabs/Scenes/TestingScene.unity
     guid: c7c929029de426b428a8d6c20467ac45
   - enabled: 1
-    path: Assets/Scenes/Lvel 1 Begining Forest.unity
+    path: Assets/Prefabs/Scenes/Lvel 1 Begining Forest.unity
     guid: 4cfb3209734cb034eabfc306784df979
   - enabled: 1
-    path: Assets/Scenes/Level 2 Abandoned Village.unity
+    path: Assets/Prefabs/Scenes/Level 2 Abandoned Village.unity
     guid: 9c18969541b789f44bd4af1fd3376697
   - enabled: 1
-    path: Assets/Scenes/Level 3 Abandoned Supermarket.unity
+    path: Assets/Prefabs/Scenes/Level 3 Abandoned Supermarket.unity
     guid: 9db36d1860892db4c89840666a0a982c
   - enabled: 1
-    path: Assets/Scenes/Level 4 Candy Land.unity
+    path: Assets/Prefabs/Scenes/Level 4 Candy Land.unity
     guid: 608204ce473b5e649bfed848ccc8de5f
   - enabled: 1
-    path: Assets/Scenes/Level 5 Witch Lair.unity
+    path: Assets/Prefabs/Scenes/Level 5 Witch Lair.unity
     guid: 28e5a16e0bbcb3048b99b8a67045409b
   - enabled: 1
-    path: Assets/Scenes/SelectPlayer.unity
+    path: Assets/Prefabs/Scenes/SelectPlayer.unity
     guid: 67da7f77ed5fb3d4b8c59f4145848851
   - enabled: 1
-    path: Assets/Scenes/CreditScene.unity
+    path: Assets/Prefabs/Scenes/CreditScene.unity
     guid: 4a6f8bd1415411143b3b112adff8bf2b
   m_configObjects: {}

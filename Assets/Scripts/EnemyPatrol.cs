@@ -15,11 +15,15 @@ public class EnemyPatrol : MonoBehaviour
     public float minY;
     public float maxY;
 
+    AudioSource audioSource;
+
     void Start()
     {
         waitTime = startWaitTime;
 
         moveSpot.position = new Vector2(Random.Range(minX, maxX), Random.Range(minY, maxY));
+
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -38,6 +42,14 @@ public class EnemyPatrol : MonoBehaviour
             {
                 waitTime -= Time.deltaTime;
 
+            }
+            if (!audioSource. isPlaying)
+            {
+                audioSource.Play();
+            }
+            else
+            {
+                audioSource.Stop();
             }
         }
     }
