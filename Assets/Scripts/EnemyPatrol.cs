@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class EnemyPatrol : MonoBehaviour 
 {
+    public GameObject player; 
+
     public float speed; //variable para velocidad
     private float waitTime; // variable tiempo de espera para movimiento
     public float startWaitTime;
+    public float distanceBetween;
 
     public Transform moveSpot; // variable de movimiento
 
@@ -16,6 +19,8 @@ public class EnemyPatrol : MonoBehaviour
     public float maxY;
 
     AudioSource audioSource;
+
+    private float distance;
 
     void Start()
     {
@@ -28,6 +33,8 @@ public class EnemyPatrol : MonoBehaviour
 
     void Update()
     {
+        distance = Vector2.Distance(transform.position, player.transform.position);
+
         transform.position = Vector2.MoveTowards(transform.position, moveSpot.position, speed * Time.deltaTime); //movimeinto del enemigo
 
         if (Vector2.Distance(transform.position, moveSpot.position) < 0.2f)
@@ -52,6 +59,11 @@ public class EnemyPatrol : MonoBehaviour
                 audioSource.Stop();
             }
         }
+        if(distance < distanceBetween)
+        {
+            transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);         
+        }
+
     }
 
 }
