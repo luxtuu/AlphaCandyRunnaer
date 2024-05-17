@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Pathfinding;
+
 
 public class EnemyGFX : MonoBehaviour
 {
-    public AIPath aiPath;   //variable para el enemy pathfinding
+    public GameObject player;
+
+    public float speed;
 
     AudioSource audioSource;
 
@@ -17,15 +19,9 @@ public class EnemyGFX : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (aiPath.desiredVelocity.x >= 0.01f) //If movimiento a la derecha
-        {
-            transform.localScale = new Vector3(-1f, 1f, 1f);
-        }
+        Vector2 direction = player.transform.position - transform.position;
 
-        else if (aiPath.desiredVelocity.x <= -0.01)// Else If movimiento a la izquierda
-        {
-            transform.localScale = new Vector3(1f, 1f, 1f);
-        }
+        transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
 
         if (!audioSource.isPlaying)
         {
