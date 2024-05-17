@@ -13,16 +13,13 @@ public class CandyScoreboard : MonoBehaviour
     {
         candyTotal = 0;
     }
-
     private void Update()
     {
-
-        if(candyTotal == 10)
+        if (candyTotal == 10)
         {
-            candiesText.text = "Ganastes!!";
+            candiesText.text = "Look for the portal!";
         }
     }
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Dulces")
@@ -31,4 +28,5 @@ public class CandyScoreboard : MonoBehaviour
             candiesText.text = "Candies = " + candyTotal;
         }
     }
+
 }
